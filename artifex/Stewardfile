@@ -13,6 +13,7 @@ github() {
 	src github https://cli.github.com/packages stable main
 	apt gh
 	apt git
+	apt openssh-client
 }
 
 utils() {
